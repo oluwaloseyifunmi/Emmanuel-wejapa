@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=open+Sans:400,500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00abd5;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #cdd4e4;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 400px;
+  max-width: 100%;
+}
+
+.header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 40px;
+}
+
+.header h2 {
+  margin: 0;
+  color: #f08b08;
+
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.selcolor {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.selgender {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.selcolor label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.selgender label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-control input, select {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.selcolor input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  padding: 10px;
+}
+
+.selgender span {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+#favcolor {
+  width: 50%;
+  display: hidden;
+}
+
+.form-control i {
+  visibility: hidden;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+/* .sel-gender i {
+  visibility: hidden;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+} */
+
+/* .sel-gender small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0
+} */
+
+.form button {
+  background-color: #00abd5;
+  border: 2px solid #00abd3;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  border-style: outset;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 3px 3px 8px 0 #000;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #083e85;
+  border-style: ridge;
+  color: #00abd3;
+  font-weight: bolder;
+  box-shadow: none;
+}
+
+.error {
+  color: #ff3300;
+}
+
